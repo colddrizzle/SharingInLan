@@ -19,7 +19,7 @@ server与浏览器端界面通过websocket通信。
 为了避免环境问题，本项目使用[virtualenv](https://www.liaoxuefeng.com/wiki/1016959663602400/1019273143120480)
 创建了虚拟环境。
 
-使用时首先应该切换到虚拟python环境下：
+使用时首先应该切换到虚拟python环境下（当然如果gevent按照没问题就不需要这个虚拟环境了）：
 
 ```
 cd SharingInLan
